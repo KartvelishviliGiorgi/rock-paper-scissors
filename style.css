@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    background-color: rgb(38, 42, 70);
+    color: white;
+    font-family: sans-serif;
+}
+
+#loginboard {
+    display: flex;
+}
+
+.input-box {
+    padding-top: 20vh;
+    margin: auto;
+    text-align: center;
+    user-select: none;
+}
+
+.user-input-text {
+    display: block;
+    margin: 50px 0;
+}
+
+#userinput {
+    font-size: 32px;
+    padding: 16px 8px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+#rounds {
+    display: block;
+    font-size: 32px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#gameboard {
+    display: none;
+    user-select: none;
+}
+
+.text-box {
+    margin: auto;
+}
+
+#complation-text {
+    margin: 5px 0;
+}
+
+h1,
+p {
+    display: inline-block;
+}
+
+.board {
+    display: grid;
+}
+
+.actions {
+    display: grid;
+}
+
+#actions-board {
+    margin: auto;
+    width: 80vh;
+    height: 20vh;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#start {
+    margin: 50px 0;
+}
+
+button {
+    width: 164px;
+    height: 64px;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(45, 120, 95);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+h1 {
+    padding: 0 8px;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

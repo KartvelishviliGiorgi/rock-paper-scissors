@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rock Paper Scissors</title>
+        <link rel="icon" href="./imgs/rock.png" />
+
+        <script type="module" src="./app/index.js" defer></script>
+
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <section>
+            <div id="loginboard">
+                <div class="input-box">
+                    <h1 class="user-input-text">Please Input Your Name</h1>
+                    <input type="text" spellcheck="false" id="userinput" />
+                    <select id="rounds">
+                        <option value="1">1</option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                        <option value="10">10</option>
+                    </select>
+                    <button id="start">START</button>
+                </div>
+            </div>
+            <div id="gameboard">
+                <div class="text-box">
+                    <h1 id="complation-text"></h1>
+                </div>
+                <div class="board">
+                    <div style="margin: auto; display: grid">
+                        <div style="margin: auto">
+                            <h1 id="user-name-0">user</h1>
+                            <h1 id="user-points-0">0</h1>
+                        </div>
+                        <img id="user-img-0" src="" alt="user-img-0" />
+                    </div>
+                </div>
+                <div class="actions">
+                    <div id="actions-board"></div>
+                </div>
+                <div class="board">
+                    <div style="margin: auto; display: grid">
+                        <div style="margin: auto">
+                            <h1 id="user-name-1">user</h1>
+                            <h1 id="user-points-1">0</h1>
+                        </div>
+                        <img id="user-img-1" src="" alt="user-img-1" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

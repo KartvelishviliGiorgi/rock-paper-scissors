@@ -1,0 +1,23 @@
+{
+    "name": "rock-paper-scissors",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "live-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KartvelishviliGiorgi/rock-paper-scissors.git"
+    },
+    "author": "Giorgi Kartvelishvili",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/KartvelishviliGiorgi/rock-paper-scissors/issues"
+    },
+    "homepage": "https://github.com/KartvelishviliGiorgi/rock-paper-scissors#readme",
+    "dependencies": {
+        "live-server": "^1.2.1"
+    }
+}
